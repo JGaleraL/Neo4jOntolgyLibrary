@@ -1,24 +1,24 @@
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\ThreatsCrimeReport.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\Report.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\SBoolean.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UIntegers.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UInteger.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\PropertyCrimeReport.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UBoolean.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UString.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\AssaultingEmergencyWorkerCrimeReport.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UEnumTest.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UBooleans.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UUnlimitedNaturals.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\ReportOntology.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\SBooleans.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UReal.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\InjuryCrimeReport.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\N_UBoolean.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UUnlimitedNatural.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\DamageCrimeReport.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UEnum.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\CoercionCrimeReport.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\ontology\util\HouseOrPremiseBreakingCrimeReport.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\ExamplesSBoolean.java
-C:\OneDrive\OneDrive - Junta de Andalucia\Documentos\NetBeansProjects\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UReals.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\AssaultingEmergencyWorkerCrimeReport.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\CoercionCrimeReport.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\DamageCrimeReport.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\HouseOrPremiseBreakingCrimeReport.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\InjuryCrimeReport.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\PropertyCrimeReport.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\Report.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\ReportOntology.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\ontology\util\ThreatsCrimeReport.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\ExamplesSBoolean.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\N_UBoolean.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\SBoolean.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\SBooleans.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UBoolean.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UBooleans.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UEnum.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UEnumTest.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UInteger.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UIntegers.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UReal.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UReals.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UString.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UUnlimitedNatural.java
+C:\Users\Jesús Galera\OneDrive - Universidad de Málaga\Documentos\TFG\TFG\Neo4jOntolgyLibrary\Neo4jOntolgyLibrary\src\main\java\uDataTypes\UUnlimitedNaturals.java
