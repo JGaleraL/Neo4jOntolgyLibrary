@@ -815,6 +815,15 @@ public class ReportOntology {
         lawProp.put("ThreatsCrimeReport_en", p);
         propertiesStream.close();
 
+        // load ExtortionCrimeReport_en properties
+        log.info("Load files properties: ExtortionCrimeReport_en.properties");
+        p = new Properties();
+        propertiesStream = ClassLoader.getSystemResourceAsStream("ExtortionCrimeReport_en.properties");
+        p.load(propertiesStream);
+        appProp.putAll(p);
+        lawProp.put("ExtortionCrimeReport_en", p);
+        propertiesStream.close();
+
         // load OntologyDataProperties_en properties
         log.info("Load files properties: OntologyDataProperties_en.properties");
         p = new Properties();
@@ -884,6 +893,9 @@ public class ReportOntology {
                 break;
             case "ThreatsCrimeReport_en":
                 r = new ThreatsCrimeReport();
+                break;
+            case "ExtortionCrimeReport_en":
+                r = new ExtortionCrimeReport();
                 break;
             default:
                 return null;
