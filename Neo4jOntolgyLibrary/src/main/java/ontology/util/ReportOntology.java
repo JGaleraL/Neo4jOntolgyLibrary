@@ -487,6 +487,21 @@ public class ReportOntology {
         String BurglaryCrime = "";
         String HouseOrPremiseBreaking = "";
         String RobberyWithIntimidationOrViolence = "";
+        // Extortion (Article243)
+        String ExtortionViolence = "";
+        String ProfitIntent = "";
+        String EconomicDamage = "";
+        // Usurpation (Article245_1 / Article245_2)
+        String BuildingOccupation = "";
+        String RealPropertyRightUsurpation = "";
+        String UsurpationViolence = "";
+        String PeacefulOccupation = "";
+        String NotADwelling = "";
+        // TheftUnlawfulUseOfVehicles (Article244_1 / Article244_2)
+        String WithoutIntendingToAppropiate = "";
+        String MotorVehicle = "";
+        String RefundWithin48H = "";
+        String ForcedVehicle = "";
         String article = "";
 
         List<String> result = new ArrayList();
@@ -504,6 +519,31 @@ public class ReportOntology {
                 RobberyWithIntimidationOrViolence = Report.getQualifiedRelationship(r.getStartNode(),
                         "RobberyWithIntimidationOrViolence");
 
+            }
+            // Extortion tags
+            if (r.getStartNode().getAllProperties().keySet().contains("ExtortionViolence")) {
+                ExtortionViolence = Report.getQualifiedRelationship(r.getStartNode(), "ExtortionViolence");
+                ProfitIntent = Report.getQualifiedRelationship(r.getStartNode(), "ProfitIntent");
+                EconomicDamage = Report.getQualifiedRelationship(r.getStartNode(), "EconomicDamage");
+            }
+            // Usurpation tags
+            if (r.getStartNode().getAllProperties().keySet().contains("BuildingOccupation")
+                    || r.getStartNode().getAllProperties().keySet().contains("RealPropertyRightUsurpation")) {
+                BuildingOccupation = Report.getQualifiedRelationship(r.getStartNode(), "BuildingOccupation");
+                RealPropertyRightUsurpation = Report.getQualifiedRelationship(r.getStartNode(),
+                        "RealPropertyRightUsurpation");
+                UsurpationViolence = Report.getQualifiedRelationship(r.getStartNode(), "UsurpationViolence");
+                PeacefulOccupation = Report.getQualifiedRelationship(r.getStartNode(), "PeacefulOccupation");
+                NotADwelling = Report.getQualifiedRelationship(r.getStartNode(), "NotADwelling");
+            }
+            // TheftUnlawfulUseOfVehicles tags
+            if (r.getStartNode().getAllProperties().keySet().contains("WithoutIntendingToAppropiate")
+                    || r.getStartNode().getAllProperties().keySet().contains("MotorVehicle")) {
+                WithoutIntendingToAppropiate = Report.getQualifiedRelationship(r.getStartNode(),
+                        "WithoutIntendingToAppropiate");
+                MotorVehicle = Report.getQualifiedRelationship(r.getStartNode(), "MotorVehicle");
+                RefundWithin48H = Report.getQualifiedRelationship(r.getStartNode(), "RefundWithin48H");
+                ForcedVehicle = Report.getQualifiedRelationship(r.getStartNode(), "ForcedVehicle");
             }
             if (r.getStartNode().getAllProperties().keySet().contains("article"))
                 article = (String) r.getStartNode().getProperty("article");
@@ -528,6 +568,33 @@ public class ReportOntology {
             result.add("HouseOrPremiseBreaking: " + HouseOrPremiseBreaking);
         if (!"".equals(RobberyWithIntimidationOrViolence))
             result.add("RobberyWithIntimidationOrViolence: " + RobberyWithIntimidationOrViolence);
+        // Extortion
+        if (!"".equals(ExtortionViolence))
+            result.add("ExtortionViolence: " + ExtortionViolence);
+        if (!"".equals(ProfitIntent))
+            result.add("ProfitIntent: " + ProfitIntent);
+        if (!"".equals(EconomicDamage))
+            result.add("EconomicDamage: " + EconomicDamage);
+        // Usurpation
+        if (!"".equals(BuildingOccupation))
+            result.add("BuildingOccupation: " + BuildingOccupation);
+        if (!"".equals(RealPropertyRightUsurpation))
+            result.add("RealPropertyRightUsurpation: " + RealPropertyRightUsurpation);
+        if (!"".equals(UsurpationViolence))
+            result.add("UsurpationViolence: " + UsurpationViolence);
+        if (!"".equals(PeacefulOccupation))
+            result.add("PeacefulOccupation: " + PeacefulOccupation);
+        if (!"".equals(NotADwelling))
+            result.add("NotADwelling: " + NotADwelling);
+        // TheftUnlawfulUseOfVehicles
+        if (!"".equals(WithoutIntendingToAppropiate))
+            result.add("WithoutIntendingToAppropiate: " + WithoutIntendingToAppropiate);
+        if (!"".equals(MotorVehicle))
+            result.add("MotorVehicle: " + MotorVehicle);
+        if (!"".equals(RefundWithin48H))
+            result.add("RefundWithin48H: " + RefundWithin48H);
+        if (!"".equals(ForcedVehicle))
+            result.add("ForcedVehicle: " + ForcedVehicle);
         return result;
     }
 

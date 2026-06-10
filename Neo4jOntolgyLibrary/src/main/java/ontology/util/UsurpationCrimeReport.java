@@ -41,6 +41,9 @@ public class UsurpationCrimeReport extends Report {
                         relation, 1);
                 setProbabilityElementAndFactor(occupyBldg, 1, 1.0 / occupyBldg.size());
                 relation.addAll(occupyBldg);
+                for (Relationship r : occupyBldg) {
+                    this.setQualifiedRelationship(n, r, "BuildingOccupation");
+                }
 
                 // usurpationRealPropertyRight → RealPropertyRight
                 LinkedHashSet<Relationship> usurpRight = checkSomeRelationTypeAndObject(n,
@@ -49,6 +52,9 @@ public class UsurpationCrimeReport extends Report {
                         relation, 2);
                 setProbabilityElementAndFactor(usurpRight, 2, 1.0 / usurpRight.size());
                 relation.addAll(usurpRight);
+                for (Relationship r : usurpRight) {
+                    this.setQualifiedRelationship(n, r, "RealPropertyRightUsurpation");
+                }
                 break;
 
             case "Article245_1":
@@ -64,6 +70,9 @@ public class UsurpationCrimeReport extends Report {
                         relation, 3);
                 setProbabilityElementAndFactor(usurpViolence, 3, 1.0 / usurpViolence.size());
                 relation.addAll(usurpViolence);
+                for (Relationship r : usurpViolence) {
+                    this.setQualifiedRelationship(n, r, "UsurpationViolence");
+                }
                 break;
 
             case "Article245_2":
@@ -82,6 +91,9 @@ public class UsurpationCrimeReport extends Report {
                         relation, 3);
                 setProbabilityElementAndFactor(noViolence, 3, 1.0 / noViolence.size());
                 relation.addAll(noViolence);
+                for (Relationship r : noViolence) {
+                    this.setQualifiedRelationship(n, r, "PeacefulOccupation");
+                }
 
                 // occupy -> NotADwelling
                 LinkedHashSet<Relationship> occupyNotDwelling = checkSomeRelationTypeAndObject(n,
@@ -90,6 +102,9 @@ public class UsurpationCrimeReport extends Report {
                         relation, 1);
                 setProbabilityElementAndFactor(occupyNotDwelling, 1, 1.0 / occupyNotDwelling.size());
                 relation.addAll(occupyNotDwelling);
+                for (Relationship r : occupyNotDwelling) {
+                    this.setQualifiedRelationship(n, r, "NotADwelling");
+                }
                 break;
         }
     }

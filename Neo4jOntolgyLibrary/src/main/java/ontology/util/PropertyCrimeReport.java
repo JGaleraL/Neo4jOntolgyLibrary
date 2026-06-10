@@ -640,6 +640,9 @@ public class PropertyCrimeReport extends Report {
                         relation, 14);
                 setProbabilityElementAndFactor(noAppropiate, 3, 1.0 / noAppropiate.size());
                 relation.addAll(noAppropiate);
+                for (Relationship r : noAppropiate) {
+                    this.setQualifiedRelationship(n, r, "WithoutIntendingToAppropiate");
+                }
 
                 // stolenthing -> StolenGoods -> hasThingCharacteristic -> MotorVehicle
                 LinkedHashSet<Relationship> stolenthingTUOV = findSomeRelationTypeAndObject(n,
@@ -651,6 +654,9 @@ public class PropertyCrimeReport extends Report {
                             relation, 15);
                     setProbabilityElementAndFactor(motor, 6, getFactor(r) * 1.0 / Math.max(motor.size(), 1));
                     relation.addAll(motor);
+                    for (Relationship rm : motor) {
+                        this.setQualifiedRelationship(n, rm, "MotorVehicle");
+                    }
                 }
                 break;
             case "Article244_1":
@@ -664,6 +670,9 @@ public class PropertyCrimeReport extends Report {
                         relation, 16);
                 setProbabilityElementAndFactor(refund, 3, 1.0 / refund.size());
                 relation.addAll(refund);
+                for (Relationship r : refund) {
+                    this.setQualifiedRelationship(n, r, "RefundWithin48H");
+                }
                 break;
             case "Article244_2":
                 defineArticlePriorProbability(n, "TheftUnlawfulUseOfVehicles", rootArticle, relation);
@@ -675,6 +684,9 @@ public class PropertyCrimeReport extends Report {
                         relation, 3);
                 setProbabilityElementAndFactor(forced, 3, 1.0 / forced.size());
                 relation.addAll(forced);
+                for (Relationship r : forced) {
+                    this.setQualifiedRelationship(n, r, "ForcedVehicle");
+                }
                 break;
         }
 
